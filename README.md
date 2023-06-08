@@ -16,7 +16,7 @@ php artisan coin:fetch
 
 Check in the database whether the data is stored or not.
 
-There is no need to for importing database as I am using migrations but still I kept a file named coingecko.sql in the main directory. Don't import.
+There is no need to for importing database as I am using migrations but still I kept a file named coingecko.sql in the public directory. Don't import.
 
 
 The main file is located in app/Console/Commands/FetchCoingeckoData.php
